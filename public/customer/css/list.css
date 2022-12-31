@@ -1,0 +1,30 @@
+/* body{
+    background-color: red;
+
+} */
+
+html{
+        scroll-behavior: smooth;
+}
+
+/* #pizza-image{
+    filter: brightness(70%);
+    transition: 0.5s;
+}
+
+#pizza-image:hover {
+    filter: brightness(100%);
+} */
+
+#code-lab-pizza{
+    animation :shake 5s infinite ;
+}
+
+@keyframes shake {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}
